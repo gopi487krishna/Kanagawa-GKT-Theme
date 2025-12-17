@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<svg width="48" height="24" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" version="1.1">
+ <defs id="defs10">
+  <filter color-interpolation-filters="sRGB" height="1.29" id="filter863" width="1.29" x="-0.15" y="-0.15">
+   <feGaussianBlur id="feGaussianBlur865" stdDeviation="1.1"/>
+  </filter>
+ </defs>
+ <g class="layer">
+  <title>Layer 1</title>
+  <rect fill="#fab387" height="24" id="rect2" rx="12" ry="12" stroke-width="0" transform="scale(-1, 1)" width="48" x="-48" y="-0.02"/>
+  <circle cx="36" cy="13" fill="#000000" filter="url(#filter863)" id="circle307" opacity="0.35" r="9" stroke-width="0"/>
+  <circle cx="36" cy="12" fill="#e9e9ed" id="circle4" r="9" stroke-width="0"/>
+  <path d="m-12,-0.02c6.65,0 12,5.35 12,12c0,0.17 -0.01,0.34 -0.01,0.51c-0.27,-6.41 -5.51,-11.49 -11.99,-11.49l-24,0c-6.48,0 -11.72,5.08 -11.99,11.49c0,-0.17 -0.01,-0.34 -0.01,-0.51c0,-6.65 5.35,-12 12,-12l24,0z" fill="#ffffff" id="rect876" opacity="0.1" transform="scale(-1,1)"/>
+ </g>
+</svg>

@@ -23,7 +23,7 @@ fi
 SASSC_OPT="-M -t expanded"
 
 THEME_NAME=Kanagawa
-THEME_VARIANTS=('' '-Green' '-Grey' '-Orange' '-Pink' '-Purple' '-Red' '-Teal' '-Yellow')
+THEME_VARIANTS=('' '-Green' '-Grey' '-Orange' '-Pink' '-Purple' '-Red' '-Teal' '-Yellow', '-Peach')
 COLOR_VARIANTS=('-Light' '-Dark')
 SIZE_VARIANTS=('' '-Compact')
 
@@ -59,7 +59,7 @@ OPTIONS:
 
   -n, --name NAME         Specify theme name (Default: $THEME_NAME)
 
-  -t, --theme VARIANT     Specify theme color variant(s) [default|green|grey|orange|pink|purple|red|teal|yellow|all] (Default: blue)
+  -t, --theme VARIANT     Specify theme color variant(s) [default|green|grey|orange|pink|purple|red|teal|yellow|peach|all] (Default: blue)
 
   -c, --color VARIANT     Specify color variant(s) [light|dark] (Default: All variants))
 
@@ -283,6 +283,10 @@ while [[ $# -gt 0 ]]; do
 				themes+=("${THEME_VARIANTS[8]}")
 				shift
 				;;
+      peach)
+        themes+=("${THEME_VARIANTS[9]}")
+        shift
+        ;;
 			all)
 				themes+=("${THEME_VARIANTS[@]}")
 				shift
@@ -481,6 +485,9 @@ theme_color() {
 		-Yellow)
 			theme_color='yellow'
 			;;
+    -Peach)
+      theme_color='peach'
+      ;;
 		esac
 		tweaks_temp
 		sed -i "/\$theme:/s/default/${theme_color}/" "${SRC_DIR}/sass/_tweaks-temp.scss"

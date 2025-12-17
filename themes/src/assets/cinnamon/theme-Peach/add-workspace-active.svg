@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<svg width="35" height="200" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" version="1.1">
+ <defs id="defs12">
+  <filter color-interpolation-filters="sRGB" height="1.08" id="filter1168" width="1.21" x="-0.1" y="-0.04">
+   <feGaussianBlur id="feGaussianBlur1170" stdDeviation="3.21"/>
+  </filter>
+  <filter color-interpolation-filters="sRGB" height="1.29" id="filter1174" width="1.29" x="-0.15" y="-0.15">
+   <feGaussianBlur id="feGaussianBlur1176" stdDeviation="0.98"/>
+  </filter>
+ </defs>
+ <g class="layer">
+  <title>Layer 1</title>
+  <rect fill="#000000" filter="url(#filter1168)" height="190" id="rect612" opacity="0.25" rx="8" ry="8" width="75" x="5" y="6"/>
+  <rect fill="#fab387" height="190" id="rect342" rx="8" ry="8" width="75" x="5" y="5"/>
+  <path d="m18,95c-0.55,0 -1,0.45 -1,1l0,4l-4,0c-0.55,0 -1,0.45 -1,1c0,0.55 0.45,1 1,1l4,0l0,4c0,0.55 0.45,1 1,1c0.55,0 1,-0.45 1,-1l0,-4l4,0c0.55,0 1,-0.45 1,-1c0,-0.55 -0.45,-1 -1,-1l-4,0l0,-4c0,-0.55 -0.45,-1 -1,-1zm8,6a8,8 0 0 1 -8,8a8,8 0 0 1 -8,-8a8,8 0 0 1 8,-8a8,8 0 0 1 8,8z" fill="#000000" filter="url(#filter1174)" id="path1172" opacity="0.15"/>
+  <path d="m18,94c-0.55,0 -1,0.45 -1,1l0,4l-4,0c-0.55,0 -1,0.45 -1,1c0,0.55 0.45,1 1,1l4,0l0,4c0,0.55 0.45,1 1,1c0.55,0 1,-0.45 1,-1l0,-4l4,0c0.55,0 1,-0.45 1,-1c0,-0.55 -0.45,-1 -1,-1l-4,0l0,-4c0,-0.55 -0.45,-1 -1,-1zm8,6a8,8 0 0 1 -8,8a8,8 0 0 1 -8,-8a8,8 0 0 1 8,-8a8,8 0 0 1 8,8z" fill="#e9e9ed" id="path4"/>
+  <path d="m13,5c-4.43,0 -8,3.57 -8,8l0,1c0,-4.43 3.57,-8 8,-8l59,0c4.43,0 8,3.57 8,8l0,-1c0,-4.43 -3.57,-8 -8,-8l-59,0z" fill="#ffffff" id="rect607" opacity="0.1"/>
+ </g>
+</svg>

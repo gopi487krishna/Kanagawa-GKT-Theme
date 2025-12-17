@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<svg width="24.000000000000004" height="24.000000000000004" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" version="1.1">
+ <defs id="defs1520">
+  <filter color-interpolation-filters="sRGB" height="1.12" id="filter1446" width="1.12" x="-0.06" y="-0.06">
+   <feGaussianBlur id="feGaussianBlur1448" stdDeviation="0.48"/>
+  </filter>
+ </defs>
+ <g class="layer">
+  <title>Layer 1</title>
+  <rect fill="#000000" filter="url(#filter1446)" height="20" id="rect890" opacity="0.25" rx="4" ry="4" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="20" x="2" y="3"/>
+  <rect fill="#fab387" height="20" id="rect616" rx="4" ry="4" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="20" x="2" y="2"/>
+  <path d="m18.36,7.76c-0.39,-0.39 -1.02,-0.39 -1.41,0l-6.36,6.36l-3.54,-3.53c-0.39,-0.4 -1.02,-0.4 -1.41,0c-0.4,0.39 -0.4,1.02 0,1.41l4.24,4.24c0.02,0.03 0.05,0.05 0.07,0.07c0.4,0.32 0.98,0.3 1.34,-0.07l7.07,-7.07c0.4,-0.39 0.4,-1.02 0,-1.41z" fill="#16161d" id="rect340" transform="matrix(1, 0, 0, 1, 0, 0)"/>
+  <path d="m6,2c-2.22,0 -4,1.78 -4,4l0,1c0,-2.22 1.78,-4 4,-4l12,0c2.22,0 4,1.78 4,4l0,-1c0,-2.22 -1.78,-4 -4,-4l-12,0z" fill="#ffffff" id="rect885" opacity="0.1" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+ </g>
+</svg>

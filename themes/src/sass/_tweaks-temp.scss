@@ -1,13 +1,13 @@
 // Theme ColorScheme palette: night/moon/storm
-@import 'color-palette-dragon';
+@import 'color-palette-default';
 
-$colorscheme: 'dragon';
+$colorscheme: 'default';
 
 // transparent opacity
 $opacity: 'default';
 
 // Theme primary color
-$theme: 'default';
+$theme: 'peach';
 
 // Theme size
 $compact: 'false';
@@ -19,13 +19,13 @@ $translucent: 'false';
 $panel_opacity: 0.6;
 
 // Blackness style
-$blackness: 'false';
+$blackness: 'true';
 
 // Windows outline style
-$outline: 'false';
+$outline: 'true';
 
 // Windows button style : mac/normal
-$window_button: 'normal';
+$window_button: 'mac';
 
 // Gnome-Shell float panel version
-$float: 'false';
+$float: 'true';
